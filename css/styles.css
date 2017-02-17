@@ -21,14 +21,25 @@ html, body {
 
 }
 
-#lunch {
+
+#breakfast {
   background-image: url("../img/foodtop/breakfast.jpg");
   height: 200px;
+  padding-top: 15px;
+
+
+}
+
+#lunch {
+  background-image: url("../img/foodtop/lunch.jpg");
+  height: 200px;
+  padding-top: 15px;
 
 }
 
 #dinner {
   background-image: url("../img/foodtop/dinner.jpg");
   height: 200px;
-  
-}
+  padding-top: 15px;
+
+  }
