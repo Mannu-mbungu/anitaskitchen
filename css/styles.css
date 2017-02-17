@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+}
+
+.part1 {
+  background-image: url("../img/backgrounds/landing.jpg");
+  min-height: 450px;
+  text-align: center;
+  width: auto;
+  padding-top:10%;
+
+
+}
+
+.image {
+  width: 100%;
+  height: 40%;
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid maroon;
+
+}
+
+#lunch {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  height: 200px;
+
+}
+
+#dinner {
+  background-image: url("../img/foodtop/dinner.jpg");
+  height: 200px;
+  
+}
