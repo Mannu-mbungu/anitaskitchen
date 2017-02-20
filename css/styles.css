@@ -14,7 +14,7 @@ html, body {
 
 
 
-#breakfast {
+#breakfast-img {
   background-image: url("../img/foodtop/breakfast.jpg");
   height: 200px;
   padding-top: 15px;
@@ -22,32 +22,38 @@ html, body {
 
 }
 
-#lunch {
+#lunch-img {
   background-image: url("../img/foodtop/lunch.jpg");
   height: 200px;
   padding-top: 15px;
 
 }
 
-#dinner {
+#dinner-img {
   background-image: url("../img/foodtop/dinner.jpg");
   height: 200px;
   padding-top: 15px;
 
   }
 
-.drinks {
-  padding-top: 20px;
 
+  .foods p {
+  margin-left: 2px;
+  font-size: 30px;
+
+  }
+
+  .row1 {
+    padding-top: 30px;
+  }
+
+.row2 img {
+  padding-top: 200px;
 }
 
+#drinkstext {
+padding-bottom: 500px;
+font-size: 10px;
 
-.container1 {
-  width: 400;
-  height: 200;
-  text-align: center;
-  background-color: white;
-  margin: 20px;
-  border: 2px black;
-  padding: 4px;
-  border: 2px solid grey;
+
+}
