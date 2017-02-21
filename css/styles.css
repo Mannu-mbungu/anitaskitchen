@@ -2,6 +2,19 @@ html, body {
   height: 100%;
 }
 
+p {font-size: 14px;
+
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
 .part1 {
   background-image: url("../img/backgrounds/landing.jpg");
   min-height: 350px;
@@ -43,16 +56,13 @@ html, body {
 
   }
 
-  .row1 {
-    padding-top: 30px;
-  }
+#fastfood {
+  padding-top: 50px;
+  padding-left: 50px;
 
-.row2 img {
-  padding-top: 200px;
 }
 
-#drinkstext {
-padding-bottom: 500px;
-
+#drinks {
+  padding-top: 50px;
 
 }
