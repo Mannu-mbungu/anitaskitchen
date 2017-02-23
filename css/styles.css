@@ -25,6 +25,11 @@ h2 {
 
 }
 
+#section1 {
+  min-width: 100%;
+
+}
+
 
 
 #breakfast-img {
@@ -64,5 +69,26 @@ h2 {
 
 #drinks {
   padding-top: 50px;
+
+}
+
+#section3 {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+min-width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 60px;
+padding-left: 180px;
+
+
+
+}
+
+#rowbox {
+  background-color: white;
+  text-align: center;
+  width: 80%;
+  height: 300px;
 
 }
