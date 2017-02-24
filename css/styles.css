@@ -79,7 +79,8 @@ height: 400px;
 background-repeat: no-repeat;
 background-position: center;
 padding-top: 60px;
-padding-left: 180px;
+padding-left: 100px;
+margin-right: 50px;
 
 
 
@@ -88,7 +89,44 @@ padding-left: 180px;
 #rowbox {
   background-color: white;
   text-align: center;
-  width: 80%;
+  width: 100%;
   height: 300px;
 
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the links inside the tab */
+div.tab a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+div.tab a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
