@@ -27,6 +27,7 @@ h2 {
 
 #section1 {
   min-width: 100%;
+  background-color: blue;
 
 }
 
@@ -63,17 +64,19 @@ h2 {
 
 #fastfood {
   padding-top: 50px;
-  padding-left: 50px;
+  padding-left: 25px;
 
 }
 
 #drinks {
   padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 90px;
 
 }
 
 #section3 {
-  background-image: url("../img/backgrounds/foodsBg.jpg");
+background-image: url("../img/backgrounds/foodsBg.jpg");
 min-width: 100%;
 height: 400px;
 background-repeat: no-repeat;
@@ -81,9 +84,6 @@ background-position: center;
 padding-top: 60px;
 padding-left: 100px;
 margin-right: 50px;
-
-
-
 }
 
 #rowbox {
@@ -93,7 +93,6 @@ margin-right: 50px;
   height: 300px;
 
 }
-
 
 div.tab {
     overflow: hidden;
@@ -129,4 +128,59 @@ div.tab a:focus, .active {
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+
+
+
+
+#section4 {
+background-image: url("../img/backgrounds/subscribe.jpg");
+min-width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 60px;
+padding-left: 100px;
+margin-right: 50px;
+text-align: center;
+padding-top: 150px;
+padding-right: 30px;
+padding-top: 100px;
+}
+
+.section4text {color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Slabo 27px', serif;
+
+}
+
+
+footer {
+background-color: #F15A29;
+text-align: center;
+padding: 30px;
+min-width: 100%;
+min-height: 100px;
+padding-bottom: 100px;
+margin-top: -50px;
+}
+
+footer p{
+  color: white;
+}
+
+footer h2{
+  color: white;
+}
+
+
+.footertext {
+  padding-top: 40px;
+}
+
+
+.menu {
+  color: red;
 }

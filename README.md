@@ -1,15 +1,16 @@
-# Places-you-have-been
+# Anitas-Kitchen
 
-##### JavaScript OO - Places you have been
+##### JavaScript OO - Anitas Kitchen
 
 ## Description
 
-This application is a demonstration of constructors and prototypes using JavaScript to create a simple places you have been app.
+This application is a demonstration of using Html, Css and  JavaScript to create a simple Anitas-Kitchen webpage.
 
 ## Setup
 
-Install address-book by cloning this repository.
+Install Anitas-Kitchen by cloning this repository.
 
 ## Technologies Used
 
+Html and Css
 JavaScript and jQuery
